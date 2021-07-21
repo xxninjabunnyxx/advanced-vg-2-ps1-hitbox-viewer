@@ -1,2 +1,4 @@
-# advanced-vg-2-ps1-hitbox-viewer
-Bizhawk hitbox viewer mode for Advanced VG 2
+# Teenage Mutant Ninja Turtles: Tournament Fighters
+Bizhawk hitbox viewer for Advanced V.G. 2
+
+To toggle hitboxes hold start and select.
