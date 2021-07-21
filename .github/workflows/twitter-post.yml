@@ -1,0 +1,16 @@
+name: Post a Tweet
+on:
+  push:
+    branches:
+      - main
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ethomson/send-tweet-action@v1
+        with:
+          status: "Updated Advanced V.G. 2 hitbox viewer Lua script #fgc #ps1 #advancedvg #lua https://github.com/xxninjabunnyxx/advanced-vg-2-ps1-hitbox-viewer"
+          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
